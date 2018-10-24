@@ -11,5 +11,5 @@ def driver(request):
 
 
 def test_example(driver):
-    driver.get("http://www.software-testing.ru/")
+    driver.get("http://localhost/litecart/admin/")
     WebDriverWait(driver, 10)
